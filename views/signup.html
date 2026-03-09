@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/signup">Sign Up</a>
+        <a href="/login">Login</a>
+    </div>
+    <form action="/signup" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="academicDetails">Academic Details:</label>
+        <textarea id="academicDetails" name="academicDetails" rows="4" cols="50"></textarea>
+
+        <label for="skills">Skills (comma-separated):</label>
+        <input type="text" id="skills" name="skills">
+
+        <label for="photo">Photo (optional):</label>
+        <input type="text" id="photo" name="photo" placeholder="Enter photo filename">
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" cols="50" required></textarea>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>

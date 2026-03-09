@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Madhav Sukhani",
+    "email": "madhavsukhani3@gmail.com",
+    "password": "madhav",
+    "academicDetails": "1234",
+    "skills": [
+      "12345"
+    ],
+    "photo": "madhav.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Madhav Sukhani",
+    "email": "madhavsukhani3@gmail.com",
+    "password": "madhav",
+    "academicDetails": "1234",
+    "skills": [
+      "12345"
+    ],
+    "photo": "madhav.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "ananya",
+    "email": "ananya@gmail.com",
+    "password": "ananya",
+    "academicDetails": "ananya",
+    "skills": [
+      "ananya"
+    ],
+    "photo": "default.png"
+  },
+  {
+    "id": 4,
+    "name": "ananya2",
+    "email": "ananya2@gmail.com",
+    "password": "ananya2",
+    "dob": "2001-01-01",
+    "address": "Sirsa St. No. 5, Kalyan Nagar",
+    "academicDetails": "velli",
+    "skills": [
+      "vella_max coder"
+    ],
+    "photo": "madhav.jpeg"
+  }
+]
